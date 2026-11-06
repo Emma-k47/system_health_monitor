@@ -5,7 +5,7 @@
 
 # Set the log and report locations
 LOG_DIR="/var/log"
-REPORT="health_report.txt"
+REPORT="${REPORT:-health_report.txt}"
 
 # Start a new report
 echo "===== SYSTEM HEALTH REPORT =====" > "$REPORT"
