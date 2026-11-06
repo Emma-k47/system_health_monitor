@@ -1,3 +1,4 @@
 health_report.txt
 reports/
 *.log
+.DS_Store
